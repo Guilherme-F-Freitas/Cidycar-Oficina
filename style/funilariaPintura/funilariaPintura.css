@@ -1,0 +1,139 @@
+*{ 
+    /* box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349); */   
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --corPrincipal:linear-gradient(to right, #7a1b12 0%, #df5432fb 100%);
+    --corSecundaria:#e2e24d;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    font-family: ubuntu,Arial, Helvetica, sans-serif; 
+    line-height: normal;
+    overflow-x: hidden;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+a:link{
+    text-decoration: none;  
+}
+
+.header1_Sobre{
+    margin-bottom: 0;
+    font-size: 0.7em;
+    color: silver;
+}
+.header2_Sobre{
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+.header2_Sobre a{
+    text-decoration: none;
+    color: var(--corSecundaria);
+}
+.bg{
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-wrap: wrap; 
+    background: #333333;
+}
+.bg p{
+    letter-spacing: 0.5px;
+    align-items: center;
+}
+.bg p i{
+    color: red;
+    margin-right: 5px;
+}
+.header3_Sobre{
+    padding: 0;
+    background-image: var(--corPrincipal);
+}
+
+
+.navbtn{
+    padding:20px 15px 20px 15px;
+}
+ul li{
+    border-left: 1px solid rgb(255 187 0 / 31%);
+}
+ul li:last-child{
+    border-right: 1px solid rgb(255 187 0 / 31%);
+}
+ul li:hover{
+    background-color:rgb(204, 58, 39);
+}
+
+.wrapper h5{
+    color: rgb(172, 90, 69);
+    font-size: 2em;
+}
+.funilaria{
+    margin-top: 50px;
+}
+.funilaria:last-child{
+    margin-bottom: 50px;
+}
+.funilaria p{
+    color: gray;
+    font-size: 0.8em;
+    letter-spacing: 0.9px;
+}
+.btnfuni button{
+    margin-top: 15px;
+    outline: none;
+}
+
+.container .btn{
+    width: 150px;
+    padding: 8px 10px 8px 10px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    border: none;
+
+    background-image: var(--corPrincipal);
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background: #333333;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+}
+.footerlogo{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+}
+.footerlogo p{
+    margin-bottom: 5px;
+    color: rgb(155, 145, 145);
+}
+.footerlogo span{
+    color: var(--corSecundaria);
+}
+.footerlogo2{
+    padding: 25px;
+}
+.footerlogo2 p{
+    margin-bottom: 5px;
+    color: rgb(155, 145, 145);
+}
+.footerlogo2 span{
+    color: coral;
+}

@@ -1,0 +1,30 @@
+
+.wrapper  h5{
+   /*  color: var(--corSecundaria);*/
+   color: rgb(172, 90, 69);
+   font-size: 2em;
+}
+.loc p{
+    color: rgb(61, 56, 56);
+    font-size: 2em;
+} 
+.loc span{
+    color: gray;
+    font-size: 0.8em;
+    letter-spacing: 0.9px;
+}
+.btnloc button{
+    margin-top: 15px;
+    outline: none;
+    
+}
+.container .btn3{
+    width: 150px;
+    padding: 8px 10px 8px 10px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    border: none;
+
+    background-image: var(--corPrincipal);
+
+}
