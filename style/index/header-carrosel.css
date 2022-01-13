@@ -7,7 +7,7 @@
     
 }
 :root{
-    --corPrincipal:linear-gradient(to right, #fa2904 0%, #e94016fb 100%);
+    --corPrincipal:linear-gradient(to right, #ff3714 0%, #e94016fb 100%);
     --corSecundaria:#e2e24d;
 }
 /* *:focus {
