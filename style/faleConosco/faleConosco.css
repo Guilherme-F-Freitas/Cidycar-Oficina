@@ -7,11 +7,11 @@
     
 }
 h5,h4{
-    color:rgb(172, 90, 69) ;
+    color:rgb(109, 83, 77) ;
 }
 :root{
-    --corPrincipal:linear-gradient(to right, #7a1b12 0%, #df5432fb 100%);
-    --corSecundaria:#e2e24d;
+    --corPrincipal:linear-gradient(to right, #fa2515 0%, #fc5024fb 100%);
+    --corSecundaria:#f1f143;
 }
 html{
     scroll-behavior: smooth;
@@ -36,7 +36,7 @@ a:link{
 .header1_Sobre{
     margin-bottom: 0;
     font-size: 0.7em;
-    color: silver;
+    color: rgb(146, 146, 146);
 }
 .header2_Sobre{
     color: #fff;
@@ -52,7 +52,7 @@ a:link{
     padding-top: 15px;
     padding-bottom: 15px;
     flex-wrap: wrap; 
-    background: #333333;
+    background: #5a5858;
 }
 .bg p{
     letter-spacing: 0.5px;
