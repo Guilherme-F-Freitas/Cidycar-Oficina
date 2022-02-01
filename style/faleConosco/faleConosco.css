@@ -33,17 +33,17 @@ a:hover{
 a:link{
     text-decoration: none;  
 }
-.header1_Sobre{
+.header1{
     margin-bottom: 0;
     font-size: 0.7em;
     color: rgb(146, 146, 146);
 }
-.header2_Sobre{
+.header2{
     color: #fff;
     margin-bottom: 0;
     font-size: 0.9em;
 }
-.header2_Sobre a{
+.header2 a{
     text-decoration: none;
     color: var(--corSecundaria);
 }
@@ -52,7 +52,7 @@ a:link{
     padding-top: 15px;
     padding-bottom: 15px;
     flex-wrap: wrap; 
-    background: #5a5858;
+    background: #333333;
 }
 .bg p{
     letter-spacing: 0.5px;

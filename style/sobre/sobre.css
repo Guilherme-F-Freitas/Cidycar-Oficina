@@ -7,7 +7,7 @@
     
 }
 :root{
-    --corPrincipal:linear-gradient(to right, #7a1b12 0%, #df5432fb 100%);
+    --corPrincipal:linear-gradient(to right, #ff3714 0%, #f8532afb 100%);
     --corSecundaria:#e2e24d;
 }
 html{
@@ -22,17 +22,17 @@ body{
     overflow-x: hidden;
     /* background-color: rgba(215, 224, 224, 0.575); */
 }
-.header1_Sobre{
+.header1{
     margin-bottom: 0;
     font-size: 0.7em;
     color: silver;
 }
-.header2_Sobre{
+.header2{
     color: #fff;
     margin-bottom: 0;
     font-size: 0.9em;
 }
-.header2_Sobre a{
+.header2 a{
     text-decoration: none;
     color: var(--corSecundaria);
 }
